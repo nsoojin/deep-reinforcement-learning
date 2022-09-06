@@ -2,8 +2,9 @@ from collections import deque
 import sys
 import math
 import numpy as np
+import time
 
-def interact(env, agent, num_episodes=20000, window=100):
+def interact(env, agent, num_episodes=5000, window=100):
     """ Monitor agent's performance.
     
     Params
