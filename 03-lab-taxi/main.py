@@ -9,6 +9,7 @@ agent = Agent()
 avg_rewards, best_avg_reward = interact(env, agent)
 
 # Watch game play simulation
+env = gym.make('Taxi-v3', render_mode='human')
 for i_episode in range(100):
     state = env.reset()
 
